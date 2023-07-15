@@ -15,7 +15,7 @@ const Main = async () => {
   const res: MovieResponse = await data.json();
 
   const movies = res.results[Math.floor(Math.random() * res.results.length)];
-  console.log(movies);
+  // console.log(movies);
 
   return (
     <div className="w-full h-[550px] text-white">

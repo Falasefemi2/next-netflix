@@ -19,3 +19,8 @@ export type Movie = {
   page: number;
   results: Movie[];
 };
+
+export type rowsProps = {
+  title: string;
+  fetchURL: string;
+}
